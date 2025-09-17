@@ -1266,7 +1266,7 @@ function safeDecodeURI(uri) {
  * @example
  * ```js
  * const displayUrl = filterURLForDisplay( 'https://www.wordpress.org/gutenberg/' ); // wordpress.org/gutenberg
- * const imageUrl = filterURLForDisplay( 'https://www.wordpress.orghttps://yoliqwq.github.io/my-static-site/wp-content/uploads/img.png', 20 ); // …ent/uploads/img.png
+ * const imageUrl = filterURLForDisplay( 'https://www.wordpress.org/wp-content/uploads/img.png', 20 ); // …ent/uploads/img.png
  * ```
  *
  * @return {string} Displayed URL.
